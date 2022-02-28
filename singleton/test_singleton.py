@@ -9,7 +9,7 @@ class TestSingleton(unittest.TestCase):
         self.new_singleton = SingletonClass()
 
     def test_singleton(self):
-        self.assertIs(self.singleton, self.new_singleton)
+        self.assertEqual(self.singleton, self.new_singleton)
         self.singleton.variable = "Singleton Variable"
         self.assertEqual(self.new_singleton.variable, "Singleton Variable")
 
