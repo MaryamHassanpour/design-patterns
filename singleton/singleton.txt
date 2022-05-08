@@ -1,0 +1,24 @@
+A Singleton pattern in python is a design pattern that
+allows you to define a class from which just one instance can be created,
+throughout the lifetime of a program.
+
+Singleton creates an instance only if there is no instance created so far
+otherwise, it will return the instance that is already created. 
+
+Singleton is a creational design pattern that
+focuses on how to create an object from a class.
+
+
+Using a singleton pattern has many benefits. A few of them are:
+
+To limit concurrent access to a shared resource.
+To create a global point of access for a resource.
+To create just one instance of a class, throughout the lifetime of a program.
+
+
+Summary:
+
+Singleton pattern is a design pattern in Python
+that restricts the instantiation of a class to one object.
+It can limit concurrent access to a shared resource,
+and also it helps to create a global point of access for a resource. 
